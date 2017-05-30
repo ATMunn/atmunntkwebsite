@@ -1,0 +1,12 @@
+h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+
+div {
+	background-color: lightblue;
+	margin: auto;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+}
