@@ -11,18 +11,20 @@
 	margin-top: 1em;
 	margin-left: 10em;
 	margin-right: 10em;
+	flex: 1 0 auto;
+}
+
+html, body{
+	height: 100%;
 }
 
 body{
-  	background-color: #ffffff;
+  	display: flex;
+  	flex-direction: column;
 }
 
 footer{
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: 0;
+	flex: none;
 }
 
 a{
