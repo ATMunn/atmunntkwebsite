@@ -1,0 +1,14 @@
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px; /*Remove this line once there is more than one row of tiles*/
+	left: 0px;
+	right: 0px;
+}
+
+.black-text{
+    color: black;
+}

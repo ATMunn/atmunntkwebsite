@@ -1,0 +1,14 @@
+*{
+    font-family: "Raleway", sans-serif;
+	text-indent: 2em;
+}
+
+footer{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.title, .subtitle, .button{
+	text-indent: 0;
+}
