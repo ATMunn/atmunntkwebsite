@@ -1,21 +1,5 @@
-@import url(../bulma.css);
-
-html, body{
-	height: 100%;
-}
-
-body{
-  	display: flex;
-  	flex-direction: column;
-}
-
-*{
-    font-family: "Raleway", sans-serif;
-	flex: 1 0 auto;
-}
-
-footer{
-	flex: none;
+.main{
+	flex: 1;
 }
 
 .black-text{
