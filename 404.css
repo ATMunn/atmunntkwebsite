@@ -1,6 +1,14 @@
-@import url(bulma.css);
-
 *{
-    font-family: "Raleway", sans-serif;
+    margin: 1em;
+    font-family: "Helvetica", sans-serif;
     text-align: center;
+}
+img{
+    margin: 0;
+}
+h1{
+    margin-bottom: 0;
+}
+h2{
+    margin-bottom: 2em;
 }
