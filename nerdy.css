@@ -3,10 +3,12 @@
 	margin: 2em;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 125%
+}
+p{
+    font-size: 2.25em;
 }
 body {
-    background-color: rgb(233, 171, 57);
+    background-color: rgb(233, 136, 57);
     background-size: 100%
 }
 .button {
@@ -14,7 +16,7 @@ body {
     transition-duration: 0.4s;
     border: 2px solid white;
     color: white;
-    padding: 18px 40px;
+    padding: 25px 40px;
     text-decoration: none;
     display: block;
 	font-size: 18px;
@@ -25,7 +27,7 @@ body {
     margin-bottom: 7em;
 }
 .button:hover {
-	padding: 25px 46px;
+	padding: 25px 55px;
     background-color: white;
     color: black;
 }
