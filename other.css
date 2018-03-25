@@ -1,0 +1,32 @@
+*{
+	text-align: center;
+	margin: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+p{
+    font-size: 2.25em;
+}
+p.asdf{
+    font-size: 1.75em;
+    margin: 5em 2em 10em 2em;
+}
+body {
+    background-color: rgb(88, 201, 84);
+    background-size: 100%
+}
+.button {
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 2px solid white;
+    color: white;
+    padding: 25px 40px;
+    text-decoration: none;
+    display: inline;
+	font-size: 18px;
+}
+.button:hover {
+	padding: 25px 50px;
+	background-color: white;
+	color: black;
+}
