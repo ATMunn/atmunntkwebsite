@@ -1,4 +1,4 @@
-h1,h3{
+h1,h3,h4{
     text-align: center;
     font-family: 'Muli', sans-serif;
 }
@@ -11,6 +11,7 @@ p.summary{
     width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+    text-align: justify;
 }
 h3{
     margin-top: 2em;
@@ -21,10 +22,9 @@ table{
     margin-left: 30%;
     margin-right: 30%;
 }
-table.summary{
+table.summary,table.history{
     font-family: 'Muli', sans-serif;
 }
-
 th,td{
     border: 1px solid #000000;
     margin: 0;
@@ -34,13 +34,22 @@ td{
     background-color: #f7f7f7;
     text-align: center;
 }
-table.summary td{
+table.summary td, table.history th, table.history td{
     text-align: left;
     background-color: #ffffff;
     border: none;
 }
-table.summary td:first-child{
+table.summary td:first-child, table.history td:first-child{
     border-right: 1px solid #000000;
+}
+table.history th{
+    border-bottom: 1px solid #000000;
+}
+table.history td, table.history th{
+    padding: 0;
+}
+table.history td:nth-child(2){
+    padding-left: 2px;
 }
 .name{
     text-align: left;
@@ -66,14 +75,14 @@ table.summary td:first-child{
 }
 .u{
     background-color: #44017f;
-    color: #ffffff;
+    color: white;
 }
 .v{
     background-color: #7601da;
 }
 .i{
     background-color: #351c81;
-    color: #ffffff;
+    color: white;
 }
 .p{
     background-color: #e3e3e8;
@@ -85,8 +94,8 @@ table.summary td:first-child{
     background-color: #ffffff;
 }
 .k{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
 }
 .a{
     background-color: #bfbfbf;
